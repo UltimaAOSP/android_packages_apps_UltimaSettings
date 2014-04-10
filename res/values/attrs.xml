@@ -51,6 +51,11 @@
 		<attr name="networkIcon" format="reference"/>
 		<attr name="ledIcon" format="reference"/>
 		<attr name="networkMeterIcon" format="reference"/>
+		<attr name="downloadIcon" format="reference" />
+		<attr name="downloadExtraIcon" format="reference" />
+		<attr name="downloadGappsIcon" format="reference" />
+		<attr name="backgroundSelector" format="reference" />
+		<attr name="separator" format="reference" />
 	</declare-styleable>
 	<declare-styleable name="NumberPreference">
 	    <attr name="min" format="integer" />

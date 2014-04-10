@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="updater_activity_name">OTA Updates</string>
+    <string name="updater_manifest_url">http://www.ultimarom.com/update_manifest.xml</string>
+    <string name="updater_check_for_updates_title">Check for updates</string>
+    <string name="updater_check_for_updates_information">Download updates and configure the OTA updater</string>
+    <string name="updater_check_for_updates_summary">Tap to check for updates</string>
+    <string name="updater_check_for_updates_available">Update Available, tap to download</string>
+    
+    <string name="updater_download_extras_title">Download Extras</string>
+    <string name="updater_download_extras_information">Download any extra or supporting files</string>
+    
+    <string name="updater_gapps_title">Download Google Apps</string>
+    <string name="updater_gapps_information">Download the latest Google Apps packages</string>
+    
+    <string name="updater_rom_information">ROM information</string>
+    <string name="updater_rom_name">ROM name:</string>
+    <string name="updater_rom_version">ROM version:</string>
+    <string name="updater_rom_codename">ROM codename:</string>
+    <string name="updater_rom_build_date">ROM date:</string>
+    <string name="updater_android_verison">Android version:</string>
+    
+    <string name="updater_no_update">You are currently up to date</string>
+    <string name="updater_last_checked">Last checked for an update at</string>
+    
+    <string name="updater_update_available_name">UltimaAOSP 4.4.2 Valhalla v1.2 Update</string>
+    <string name="updater_update_progress_counter">0MB / 0MB</string>
+    <string name="updater_update_changelog_title">Changelog</string>
+    <string name="updater_update_changelog_content">Your Changelog does here</string>
+    <string name="updater_download_button">Download</string>
+</resources>

@@ -54,6 +54,14 @@
 		<item name="networkIcon">@drawable/ic_network_light</item>
 		<item name="ledIcon">@drawable/ic_led_light</item>
 		<item name="networkMeterIcon">@drawable/ic_network_meter_light</item>
+		<item name="downloadIcon">@drawable/ic_download_light</item>
+		<item name="downloadExtraIcon">@drawable/ic_download_extras_light</item>
+		<item name="downloadGappsIcon">@drawable/ic_download_gapps_light</item>
+		
+		<item name="android:listChoiceBackgroundIndicator">@drawable/list_selector_holo_light</item>
+    	<item name="android:activatedBackgroundIndicator">@drawable/activated_background_holo_light</item>
+    	<item name="backgroundSelector">@drawable/list_selector_holo_light</item>
+    	<item name="separator">@color/separator_light</item>
 	</style>
 	<style name="RagnarTheme.Light.Dark.Actionbar" parent="@style/ThemeCompat.Light.DarkAction">
 		<item name="appsIcon">@drawable/ic_settings_apps_light</item>
@@ -105,6 +113,14 @@
 		<item name="networkIcon">@drawable/ic_network_light</item>
 		<item name="ledIcon">@drawable/ic_led_light</item>
 		<item name="networkMeterIcon">@drawable/ic_network_meter_light</item>
+		<item name="downloadIcon">@drawable/ic_download_light</item>
+		<item name="downloadExtraIcon">@drawable/ic_download_extras_light</item>
+		<item name="downloadGappsIcon">@drawable/ic_download_gapps_light</item>
+		
+		<item name="android:listChoiceBackgroundIndicator">@drawable/list_selector_holo_light</item>
+    	<item name="android:activatedBackgroundIndicator">@drawable/activated_background_holo_light</item>
+    	<item name="backgroundSelector">@drawable/list_selector_holo_light</item>
+    	<item name="separator">@color/separator_light</item>
 	</style>
 	<style name="RagnarTheme.Dark" parent="@style/ThemeCompat.Dark">
 		<item name="appsIcon">@drawable/ic_settings_apps_dark</item>
@@ -156,5 +172,13 @@
 		<item name="networkIcon">@drawable/ic_network_dark</item>
 		<item name="ledIcon">@drawable/ic_led_dark</item>
 		<item name="networkMeterIcon">@drawable/ic_network_meter_dark</item>
+		<item name="downloadIcon">@drawable/ic_download_dark</item>
+		<item name="downloadExtraIcon">@drawable/ic_download_extras_dark</item>
+		<item name="downloadGappsIcon">@drawable/ic_download_gapps_dark</item>
+		
+		<item name="android:listChoiceBackgroundIndicator">@drawable/list_selector_holo_dark</item>
+    	<item name="android:activatedBackgroundIndicator">@drawable/activated_background_holo_dark</item>
+    	<item name="backgroundSelector">@drawable/list_selector_holo_dark</item>
+    	<item name="separator">@color/separator_dark</item>
 	</style>
 </resources>

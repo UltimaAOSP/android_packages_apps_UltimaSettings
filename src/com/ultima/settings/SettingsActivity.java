@@ -561,9 +561,9 @@ public class SettingsActivity extends Activity implements Constants {
                 
                 if(setting == 3){
                     prefBatterypc.setEnabled(false);
-                    prefBatterypc.setSummary("Only available for battery text only option");
+                    prefBatterypc.setSummary("Not available for battery text only option");
                     prefBatterypcColor.setEnabled(false);
-                    prefBatterypcColor.setSummary("Only available for battery text only option");
+                    prefBatterypcColor.setSummary("Not available for battery text only option");
                 } else {
                     prefBatterypc.setEnabled(true);
                     prefBatterypc.setSummary(R.string.battery_percent_summary);

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:padding="15dp"
+	    android:id="@+id/updater_no_update_layout"
+	    android:visibility="gone">
+	    <TextView
+	        android:id="@+id/updater_no_update"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/updater_no_update"
+	        android:textAppearance="?android:attr/textAppearanceLarge"
+	        android:textColor="@color/holo_blue_light" />
+	
+	    <View
+	        android:layout_width="fill_parent"
+	        android:layout_height="1dip"
+	        android:layout_marginBottom="20dp"
+	        android:layout_marginTop="20dp"
+	        android:background="?attr/separator"
+	        android:padding="15dp" />
+	
+	    <TextView
+	        android:id="@+id/updater_last_checked"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/updater_last_checked"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	</LinearLayout>
+	
+    <LinearLayout
+        android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:padding="15dp"
+	    android:id="@+id/updater_update_avail_layout">
+	    
+        <TextView
+	        android:id="@+id/updater_update_available"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/updater_update_available_name"
+	        android:textSize="28sp"
+	        android:textColor="@color/holo_blue_light" />
+
+        <ProgressBar
+            android:id="@+id/update_download_progress_bar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/updater_download_progress_counter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="@string/updater_update_progress_counter"
+            android:textSize="10sp" />
+        
+        <Button
+            android:id="@+id/updater_download_update_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/updater_download_button"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/updater_update_changelog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/updater_update_changelog_title"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ScrollView
+            android:id="@+id/updater_changelog_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+                <TextView
+		            android:id="@+id/updater_update_changelog_content"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/updater_update_changelog_content"
+		            android:singleLine="false"
+		            android:textAppearance="?android:attr/textAppearanceSmall" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

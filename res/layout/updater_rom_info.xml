@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+        
+    	<TextView
+	    	android:id="@+id/updater_rom_information"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/updater_rom_information"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+    	
+    	<TextView
+	    	android:id="@+id/updater_rom_name"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/updater_rom_name"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:singleLine="false" />
+    	
+    	<TextView
+	    	android:id="@+id/updater_rom_version"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/updater_rom_version"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:singleLine="false" />
+   
+    	<TextView
+	    	android:id="@+id/updater_rom_codename"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/updater_rom_codename"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:singleLine="false" />
+
+    	<TextView
+    	    android:id="@+id/updater_rom_date"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:text="@string/updater_rom_build_date"
+    	    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    	<TextView
+    	    android:id="@+id/updater_android_version"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:text="@string/updater_android_verison"
+    	    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </LinearLayout>
